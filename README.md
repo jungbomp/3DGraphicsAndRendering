@@ -20,15 +20,23 @@ This is an implementation of transformations such as rotation, translation, and 
 
 ![sampleImage](03_Transformations/demo.png)
 
-* ##[Shading](https://github.com/jungbomp/3D_GraphicsAndRendering/tree/master/04_Shading)
+* ## [Shading](https://github.com/jungbomp/3D_GraphicsAndRendering/tree/master/04_Shading)
 
 This is an implementation of shading such as Flat, Gouraud and Phong shading. Flat shading decides color by its face normal. [Gouraud shading](https://en.wikipedia.org/wiki/Gouraud_shading) interpolates color. [Phong shading](https://en.wikipedia.org/wiki/Phong_shading) interpolates normals.
 
 ![sampleImage](04_Shading/demo.png)
 
-* ##[Texturing](https://github.com/jungbomp/3D_GraphicsAndRendering/tree/master/05_Texturing)
+* ## [Texturing](https://github.com/jungbomp/3D_GraphicsAndRendering/tree/master/05_Texturing)
 
-* ##[Anti-aliasing](https://github.com/jungbomp/3D_GraphicsAndRendering/tree/master/06_Antialiasing)
+This is an implementation of texturing with u,v coordination. It uses a texture image. Also, it generates a wolf noise pattern image for texturing.
+
+![sampleImage](05_Texturing/demo.png)
+
+* ## [Anti-aliasing](https://github.com/jungbomp/3D_GraphicsAndRendering/tree/master/06_Antialiasing)
+
+This is an implementation of anti-aliasing. When the resterizer decides pixels to draw, the aliasing effect is occurred. Also, perspective increases aliasing effect. To prevent aliasing, the this uses supersampeling.
+
+![sampleImage](06_AntiAliasing/screenshot.png)
 
 
 ### The repository includes:
