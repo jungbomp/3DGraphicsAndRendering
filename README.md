@@ -2,7 +2,7 @@
 
 This is an implementation of 3D graphic rasterization and related features on MFC. This program resterizes 3D polygon datasets to 2D image. In addition, this apply transformations such as rotation, translation, and scaling; shadings such as Gouraud and Phong; texturing; anti-aliasing. Each features are implementated at different projects. 
 
-## * Frame Buffer
+* ## Frame Buffer
 
 This is an implementation of frame buffer on MFC. This program has a text file as a input and generates a .ppm file as a result.
 
