@@ -36,7 +36,7 @@ This is an implementation of texturing with u,v coordination. It uses a texture 
 
 This is an implementation of anti-aliasing. When the resterizer decides pixels to draw, the aliasing effect is occurred. Also, perspective increases aliasing effect. To prevent aliasing, the this uses supersampeling.
 
-![sampleImage](06_AntiAliasing/screenshot.png)
+![sampleImage](06_Antialiasing/screenshot.png)
 
 
 ### The repository includes:
@@ -64,18 +64,9 @@ The output file is .PPM file format which has an ascii header followed by 8-bit 
 * Microsoft Visual Studio Community 2015 Version 14.0.25431.01 Update 3
 
 
-### Compile and Run
-```bash
-Set running configuration to Release
-Build - Build Solution
-> %(Solution Dir)\Release\CS580HW1.exe
-Render - RunRender
-```
-
-
 ### Status
 
-This is a first assignment of CSCI-580 3D Graphics and Rendering, 2018 fall
+These projects are assignments of CSCI-580 3D Graphics and Rendering, 2018 fall
 
 Version 1.0
 
