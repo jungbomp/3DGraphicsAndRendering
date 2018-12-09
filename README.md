@@ -4,7 +4,8 @@ This is an implementation of 3D graphic rasterization and related features on MF
 
 * ## Frame Buffer
 
-This is an implementation of frame buffer on MFC. This program has a text file as a input and generates a .ppm file as a result.
+This is an implementation of frame buffer.
+[sampleImage](01_FrameBuffer/screenshot.png)
 
 ### The repository includes:
 * Source code
