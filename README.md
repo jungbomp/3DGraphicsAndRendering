@@ -48,16 +48,11 @@ This is an implementation of anti-aliasing. When the resterizer decides pixels t
 
 ```Input```
 
-The input file named rects contains rectangles information. Each line is consisted of seven numbers. The first two numbers represent top left corner cordination (X,Y) of rectangle, following two numbers mean bottom right corner cordination (x,y) of rectangle, and following three numbers are the RGB color values. The media contents consist of series of image files. Each image file is .RGB where the resolution is 352x288 containing 352x288 red bytes, followed by 352x288 green bytes, floowed by 352x288 blue bytes.
+The input file contains 3D polygons of teapot model. Each line represents vertex of a triangle, which has eight floating point number columns. First three columns are (X,Y,Z) coordination of a vertex. Next tree columns are a normal vector of the vertex, following two columns are (U,V) coordination for texturing. Thus, every three rows form a triangle of a teapot.
 
 ```Output```
 
 The output file is .PPM file format which has an ascii header followed by 8-bit binary pixel color values in raster order (top-left to bottom-right). For example the header is `P6 255 256 255\n` `RGBRGBRGB...` produces a 256x256 image.
-
-
-### Result Screen shot
-![Sample screen shot](screenshot.png)
-
 
 ## Building Environment
 * Microsoft Window 10
