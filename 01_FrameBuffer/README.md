@@ -22,23 +22,21 @@ The output file is .PPM file format which has an ascii header followed by 8-bit 
 ![Sample screen shot](screenshot.png)
 
 
-### Compile & Run
+## Building Environment
+* Microsoft Window 10
+* Microsoft Visual Studio Community 2015 Version 14.0.25431.01 Update 3
 
+
+### Compile and Run
 ```bash
-$ cd HyperMediaAuthor
-$ mvn package
-$ java -jar target/HyperMediaAuthor.jar
+Set running configuration to Release
+Build - Build Solution
+> %(Solution Dir)\Release\CS580HW1.exe
 ```
 
-### Clean
-
-```bash
-$ cd HyperMediaAuthor
-$ mvn clean
-```
 
 ### Status
 
+This is a first assignment of CSCI-580 3D Graphics and Rendering, 2018 fall
+
 Version 1.0
-
-
