@@ -18,6 +18,8 @@ This is an implementation of Scanline resterization. It uses slop equation for Z
 
 This is an implementation of transformations such as rotation, translation, and scaling. This forms graphic pipeline (Model space to screen space).
 
+![sampleImage](03_Transformations/demo.png)
+
 
 ### The repository includes:
 * Source code
