@@ -5,7 +5,19 @@ This is an implementation of 3D graphic rasterization and related features on MF
 * ## Frame Buffer
 
 This is an implementation of frame buffer.
+
 ![sampleImage](01_FrameBuffer/screenshot.png)
+
+* ## Rasterize
+
+This is an implementation of Scanline resterization. It uses slop equation for Z-buffering.
+
+![sampleImage](02_Rasterization/screenshot.png)
+
+* ## Transformations
+
+This is an implementation of transformations such as rotation, translation, and scaling. This forms graphic pipeline (Model space to screen space).
+
 
 ### The repository includes:
 * Source code
