@@ -32,6 +32,7 @@ The output file is .PPM file format which has an ascii header followed by 8-bit 
 Set running configuration to Release
 Build - Build Solution
 > %(Solution Dir)\Release\CS580HW1.exe
+Render - RunRender
 ```
 
 
