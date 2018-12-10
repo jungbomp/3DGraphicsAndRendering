@@ -1,11 +1,14 @@
 # Frame Buffer
 
+
 This is an implementation of frame buffer on MFC. This program has a text file as a input and generates a .ppm file as a result.
+
 
 ## The repository includes:
 * Source code
 * Sample datasets
 * Sample screen shots
+
 
 ## Datasets
 
