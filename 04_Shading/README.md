@@ -56,7 +56,7 @@ The output file is .PPM file format which has an ascii header followed by 8-bit 
 ```bash
 Set running configuration to Release
 Build - Build Solution
-> %(Solution Dir)\Release\CS580HW2.exe
+> %(Solution Dir)\Release\CS580HW4.exe
 Render - RunRender
 ```
 
