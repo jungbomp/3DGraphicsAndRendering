@@ -40,6 +40,6 @@ Render - RunRender
 
 ## Status
 
-This is a first assignment of CSCI-580 3D Graphics and Rendering, 2018 fall
+This is the first assignment of CSCI-580 3D Graphics and Rendering, 2018 fall
 
 Version 1.0
