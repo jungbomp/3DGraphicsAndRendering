@@ -2,12 +2,12 @@
 
 This is an implementation of frame buffer on MFC. This program has a text file as a input and generates a .ppm file as a result.
 
-### The repository includes:
+## The repository includes:
 * Source code
 * Sample datasets
 * Sample screen shots
 
-### Datasets
+## Datasets
 
 ```Input```
 
@@ -18,7 +18,7 @@ The input file named rects contains rectangles information. Each line is consist
 The output file is .PPM file format which has an ascii header followed by 8-bit binary pixel color values in raster order (top-left to bottom-right). For example the header is `P6 255 256 255\n` `RGBRGBRGB...` produces a 256x256 image.
 
 
-### Result Screen shot
+## Result Screen shot
 ![Sample screen shot](screenshot.png)
 
 
@@ -27,7 +27,7 @@ The output file is .PPM file format which has an ascii header followed by 8-bit 
 * Microsoft Visual Studio Community 2015 Version 14.0.25431.01 Update 3
 
 
-### Compile and Run
+## Compile and Run
 ```bash
 Set running configuration to Release
 Build - Build Solution
@@ -36,7 +36,7 @@ Render - RunRender
 ```
 
 
-### Status
+## Status
 
 This is a first assignment of CSCI-580 3D Graphics and Rendering, 2018 fall
 
